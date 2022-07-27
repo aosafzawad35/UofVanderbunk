@@ -38,7 +38,7 @@ ul{
 	position: -webkit-sticky;
   	position: sticky;
 }
-li{
+nav li{
 	list-style: none;
 	display: inline;
 	padding-right: 25px;
@@ -58,8 +58,8 @@ a{
 	color: #1C162E;
 	text-decoration: none;
 }
-a: hover{
-	color: #1C162E;
+a:hover{
+	color: #eee;
 	text-decoration-style: none;
 }
 a: visited{
@@ -88,9 +88,6 @@ article{
 	padding: 5px;
 }
 .grid{
-	background-color: #fff;
-	border-color: #eee;
-	border-right: 5px;
 	padding: 15px;
 	box-sizing: border-box;
 }
@@ -114,4 +111,13 @@ button{
 }
 .title{
 	align-content: left;
+}
+.list{
+	display: block;
+	padding: 5px;
+	font-family:  Tahoma, Verdana, sans-serif;
+}
+.qa{
+	margin-bottom: 25px;
+	width: 60%;
 }
